@@ -1,0 +1,12 @@
+{% extends 'base.html'%}
+
+{% block body %}
+<div class="pokeData">
+  <div class="card" id="pokeDataContainer">
+    <center> <h2>Common Pokemon</h2> </center>
+  </div>
+</div>
+
+<script src="{{url_for('static', filename='pokemonScript.js')}}"></script>
+
+{% endblock%}
